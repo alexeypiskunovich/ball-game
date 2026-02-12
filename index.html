@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Playable Ad</title>
+</head>
+<body>
+    
+    
+    <div id="stars"></div>
+    <div id="game-container">
+        <canvas id="pixi-canvas"></canvas>
+        <div id="win-screen" class="screen hidden">
+            <div class="result-text">VICTORY!</div>
+            <button class="btn" id="next-btn">NEXT</button>
+        </div>
+        <div id="lose-screen" class="screen hidden">
+            <div class="result-text">TRY AGAIN!</div>
+            <button class="btn" id="retry-btn">RETRY</button>
+        </div>
+        <div id="tutorial-hand" class="tutorial-hand">👉</div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
